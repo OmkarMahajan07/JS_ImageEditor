@@ -48,6 +48,7 @@ main section {
 
 main section .left {
 	display: flex;
+    margin-top: 50px;
 	flex-direction: column;
 	gap: var(--gutter-lg);
 	width: 70%;

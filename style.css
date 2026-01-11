@@ -78,6 +78,7 @@ main section .bottom {
     aspect-ratio: 5/3;
     border-radius: var(--border-radius-xl);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -86,6 +87,8 @@ main section .bottom .placeholder{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 main section .bottom .placeholder i {
@@ -144,4 +147,8 @@ canvas{
     display : flex;
     flex-wrap: wrap;
     gap: var(--gutter-md);
+}
+
+.hidden {
+    display: none !important;
 }
